@@ -1,0 +1,59 @@
+body{
+	margin: 0px;
+	width: 100%;
+	background-color: #e0ece4;
+	font-family: 'Merriweather',serif;
+}
+.header{
+	position: relative;
+	top: 20px;
+	left: 10px;
+	height: 100px;
+}
+.nav{
+	float: right;
+	position: relative;
+	top: 30px;
+	right: 100px;
+	font-family: monospace;
+	font-family: 'Montserrat',sans-serif;
+}
+.nav a{
+	color: teal;
+	text-decoration-line: none;
+}
+.top-container{
+	position: relative;
+	height: 500px;
+	text-align: center;
+}
+h1{
+	font-family: 'Dancing Script';
+	color: teal;
+	font-size: 70px;
+}
+h2{
+	font-family: 'Montserrat', sans-serif;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+}
+.c1{
+	position: relative;
+	left: 300px;
+
+}
+.c2{
+	position: absolute;
+	left: 100px;
+	margin: 0 auto;
+}
+.m1{
+	position: relative;
+	top: 30px;
+}
+
+/* merriweeather for body text 
+	Dancing Script for I'm Pushpak.
+	Montserrat heading font
+*/
