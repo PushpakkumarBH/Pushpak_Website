@@ -1,14 +1,15 @@
 body{
 	margin: 0px;
 	width: 100%;
-	background-color: #e0ece4;
 	font-family: 'Merriweather',serif;
+
 }
 .header{
-	position: relative;
-	top: 20px;
-	left: 10px;
-	height: 100px;
+	height: 200px;
+	z-index: 1000;
+	text-align: initial;
+	background-color: #e0ece4;
+	width: 100%;
 }
 .nav{
 	float: right;
@@ -24,23 +25,53 @@ body{
 }
 .top-container{
 	position: relative;
-	height: 500px;
+	height: 640px;
 	text-align: center;
+	background-color: #e0ece4;
 }
 h1{
 	font-family: 'Dancing Script';
 	color: teal;
-	font-size: 70px;
 }
 h2{
 	font-family: 'Montserrat', sans-serif;
+	color: teal;
+	font-size: 2em;
+	
 }
 h3{
 	font-family: 'Montserrat', sans-serif;
+	color: teal;
+}
+.middle-container{
+	height: 1250px;
+
+}
+.profile{
+	position: relative;
+	top: 10px;
+	text-align: center;
+}
+.profile h2{
+	margin-top: 0px;
+}
+.skills{
+	position: relative;
+	top: 50px;
+	text-align: center;
+}
+.skill-row a{
+	text-decoration-line: none;
+	color: teal;
+}
+.para{
+	font-family: 'Baloo Tamma 2', cursive;
+	font-weight: 300;
 }
 .c1{
 	position: relative;
 	left: 300px;
+	margin-bottom: 50px;
 
 }
 .c2{
@@ -50,9 +81,22 @@ h3{
 }
 .m1{
 	position: relative;
-	top: 30px;
+	top: 32px;
 }
 
+.bottom-container{
+	height: 300px;
+	text-align: center;
+	position: relative;
+	top: 50px;
+}
+.bottom-container a{
+	text-decoration-line: none;
+	color: teal;
+}
+#lorem{
+	padding-top: 30px;
+}
 /* merriweeather for body text 
 	Dancing Script for I'm Pushpak.
 	Montserrat heading font
